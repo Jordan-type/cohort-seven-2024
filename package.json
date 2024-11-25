@@ -1,0 +1,17 @@
+{
+  "name": "cohort-seven2024",
+  "version": "1.0.0",
+  "description": "Welcome to the Clean Code Friday repository! This project is dedicated to writing and organizing clean, efficient code in various programming languages, including **Node.js**, **Solidity**, **TypeScript**, **JavaScript**, and **Python**.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.4"
+  }
+}
