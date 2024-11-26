@@ -76,7 +76,7 @@ const buyBookFromContract = async (bookId, quanity) => {
 
 
 (async () => {
-    // await addBookToContract(bookDetails.bookId, bookDetails.title, bookDetails.author, bookDetails.price, bookDetails.stock)
+    await addBookToContract(bookDetails.bookId, bookDetails.title, bookDetails.author, bookDetails.price, bookDetails.stock)
     await getBook(_bookId)
     await buyBookFromContract(_bookId, 1)
 })()
